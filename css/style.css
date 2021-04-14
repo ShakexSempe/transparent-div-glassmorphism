@@ -14,7 +14,9 @@
     position: absolute;
     max-width: 600px;
     padding: 50px;
-    background: rgba(255, 255, 255, 0.4);
+    background-color: rgba(0, 0, 0, 0.3);
+    background-image: linear-gradient(180deg, rgba(8, 156, 156, 0), rgba(6, 112, 112, 0.295));
+    color: #ddd;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     top: 5%;
     left: 0;
@@ -26,9 +28,11 @@
       margin-bottom: 20px;
       font-size: 4em;
       color: #044463;
+      text-shadow: 1px 1px 5px #ddd;
       text-transform: uppercase; }
     .container .box p {
-      font-size: 1.4em; }
+      font-size: 1.4em;
+      text-shadow: 1px 3px 3px #044463; }
 
 @media (max-width: 550px) {
   .container {
