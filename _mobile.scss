@@ -1,0 +1,23 @@
+@media(max-width: 550px) {
+
+    .container {
+        padding: 10px;
+        .box {
+                
+                padding: 10px;
+                text-align: center;
+
+            h2 {
+                margin-bottom: 20px;
+                font-size: 3em;
+                color: #044463;
+                text-transform: uppercase;
+            }
+    
+            p {
+                font-size: 1.4em;
+            }
+        }
+    }
+    
+}

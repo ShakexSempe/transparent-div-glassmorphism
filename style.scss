@@ -11,10 +11,32 @@
     height: 100vh;
     display: flex;
     align-items: center;
+    
 
     .box {
-        position: relative;
+        position: absolute;
         max-width: 600px;
         padding: 50px;
+        background: rgba(255,255,255, .4);
+        box-shadow: 0 5px 15px rgba(0,0,0,.5);
+        top: 5%;
+        left: 0;
+        margin: 10px;
+        border-radius: 10px;
+        backdrop-filter: blur(0.05em);
+        overflow: hidden;
+
+        h2 {
+            margin-bottom: 20px;
+            font-size: 4em;
+            color: #044463;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 1.4em;
+        }
     }
 }
+
+@import 'mobile';
